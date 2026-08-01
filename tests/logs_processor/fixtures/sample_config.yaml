@@ -1,0 +1,16 @@
+filter_mode: all
+
+groupings:
+  - type: timestamp
+
+filters:
+  - type: contains
+    substring: ERROR
+  - type: contains
+    substring: payments
+
+transforms:
+  - type: redact
+    exclude_ip: true
+  - type: truncate
+    max_length: 100

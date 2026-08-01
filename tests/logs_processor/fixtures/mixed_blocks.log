@@ -1,0 +1,5 @@
+2026-08-01 10:00:00 INFO Starting service
+2026-08-01 10:00:01 DEBUG Verbose internal state dump
+  extra debug detail line
+2026-08-01 10:00:03 ERROR Payment processing failed
+2026-08-01 10:00:04 INFO Shutting down

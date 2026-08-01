@@ -1,0 +1,6 @@
+Request received
+  header: Content-Type application/json
+  header: Authorization Bearer ***
+
+Response sent
+    status: 200

@@ -1,0 +1,11 @@
+timestamp_format: '%Y-%m-%d %H:%M:%S'
+
+filters:
+  - type: contains
+    substring: ERROR
+
+time_ranges:
+  - start: 2026-08-01 10:00:00     # unquoted: YAML parses this as a datetime
+    end: 2026-08-01 10:01:00
+  - start: '2026-08-01 18:00:00'   # quoted: parsed with timestamp_format
+    end: '2026-08-01 18:01:00'
